@@ -21,7 +21,7 @@ export default function Join({setChatVisibility, setSocket}){
       <div>
         <h1>Entrar</h1>
         <input type='text' ref={userNameRef} placeholder='Nome do User'></input>
-        <button onClick={()=>{handleSubmit()}}>Entrar</button>
+        <button  style={{marginLeft:'1rem'}}onClick={()=>{handleSubmit()}}>Entrar</button>
       </div>
     )
   

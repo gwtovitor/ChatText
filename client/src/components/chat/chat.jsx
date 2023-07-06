@@ -31,7 +31,7 @@ export default function Chat({ socket }) {
                 ))
             }
             <input type='text' ref={messageRf} placeholder='Mensagem'></input>
-            <button onClick={() => { handleSubmit() }}>Enviar</button>
+            <button style={{marginLeft:'1rem'}} onClick={() => { handleSubmit() }}>Enviar</button>
         </div>
     )
 
